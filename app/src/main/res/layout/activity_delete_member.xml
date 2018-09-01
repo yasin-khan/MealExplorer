@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yasinkhan.mealexplorer.DeleteMember">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/memberIdEt"
+            android:hint="Enter member id"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/findBtn"
+            android:text="Find"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/memberNameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name will be here"
+            android:padding="20dp"/>
+
+        <EditText
+            android:id="@+id/memberDepositeEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Deposite will be here"
+            android:padding="20dp"/>
+
+        <EditText
+            android:id="@+id/memberMealEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Meal will be here"
+            android:padding="20dp"/>
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingRight="50dp"
+            android:paddingLeft="50dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+            <Button
+                android:id="@+id/backBtn"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                android:text="Back"
+                android:layout_marginRight="10dp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/viewBtn"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                android:text="View"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

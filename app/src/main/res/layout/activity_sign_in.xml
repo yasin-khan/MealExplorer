@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:paddingRight="30px"
+    android:paddingLeft="30px"
+    tools:context="com.example.yasinkhan.mealexplorer.SignInActivity">
+
+    <EditText
+        android:id="@+id/userNameEt"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Usename"/>
+
+    <EditText
+        android:id="@+id/passwordEt"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Password"/>
+
+    <Button
+        android:id="@+id/signInnBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sign in"
+        android:background="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:padding="15dp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
